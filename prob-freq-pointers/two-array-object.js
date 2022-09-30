@@ -1,6 +1,8 @@
+"use strict";
+
 // add whatever parameters you deem necessary & write docstring
 
-/* 
+/*
 twoArrayObject»
 This should take two arrays of possibly-different lengths. The first array consists of keys and the second one consists of values.
 

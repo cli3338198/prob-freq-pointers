@@ -1,3 +1,5 @@
+"use strict";
+
 // Input: (nums, targetAvg) (array, number)
 // Output: true/false, boolean
 
@@ -5,7 +7,7 @@
 // or false
 
 /**
- * @params nums, array
+ * @params nums, sorted array
  * @params targetAvg, number
  */
 
@@ -28,9 +30,13 @@ function averagePair(nums, targetAvg) {
     // find average of left elemetn and right element and compare to targetAvg
     if (currAvg === targetAvg) return true;
     // if average is less than targetAvg
-    if (currAvg < targetAvg) leftInd++;
+    if (currAvg < targetAvg) {
+      leftInd++;
+    }
     // else decrement right pointer
-    else rightInd--;
+    else {
+      rightInd--;
+    }
   }
   // return false
   return false;
