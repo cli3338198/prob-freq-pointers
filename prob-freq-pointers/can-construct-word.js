@@ -1,3 +1,5 @@
+"use strict";
+
 // add whatever parameters you deem necessary & write doc comment
 /* 
 This should accept two strings: word and letters. It should return true if the word can be built with the letters; otherwise, it should return false.
