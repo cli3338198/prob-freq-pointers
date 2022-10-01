@@ -1,7 +1,7 @@
 "use strict";
 
 // add whatever parameters you deem necessary & write doc comment
-/* 
+/*
 This should accept two strings: word and letters. It should return true if the word can be built with the letters; otherwise, it should return false.
 
 There are only lowercase letters (with no spaces or punctuation) in both word and letters.
@@ -20,7 +20,7 @@ canConstructWord('aabb', 'bcabad');
 
 /**
  * finds if the word can be built with the letters provided
- * @params word, string
+* @params word, string
  * @params letters, string
  * return true or false
  */
